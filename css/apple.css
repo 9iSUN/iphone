@@ -1,0 +1,631 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: "苹方","微软雅黑";
+	text-decoration: none;
+}
+
+
+.changtiao{
+	width: 100%;
+	height: 42px;
+	background: #444444;
+	position: relative;
+}
+.changtiao a{
+	font-size: 12px;
+	color: #fff;
+	position: absolute;
+	top: 47.6%;
+	right: 12.5%;
+
+}
+
+
+
+nav{
+	width: 100%;
+	height: 44px;
+	background: #323232;
+
+}
+
+.navBox{
+	width: 1000px;
+	height: 100%;
+	background:#323232;
+	margin: 0px auto;
+	text-align:justify;
+
+
+}
+.navBox ul{
+	width: 100%;
+}
+.navBox .con:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+.navBox li a{
+	color: #fff;
+	font-size: 14px;
+
+}
+.icon-pingguo:before { 
+   font-size: 18px;
+ }
+
+.icon-fangdajing:before {
+     font-size: 18px;
+ }
+
+.icon-s:before { 
+     font-size: 18px;
+ }
+.navBox li{
+	display: inline-block;
+	line-height: 44px;
+    
+
+}
+.navBox ul:nth-child(2){
+	width: 100%;
+	height: 100%;
+	display: none;
+
+}
+.navBox ul:nth-child(2) li:nth-child(1){
+	text-align: left;
+
+}
+.navBox ul:nth-child(2) li:nth-child(3){
+	text-align: right;
+
+}
+.navBox ul:nth-child(2) li{
+	width: 33.3%;
+	height: 100%;
+	display: block;
+	float: left;
+	text-align: center;
+
+}
+
+.banner{
+	height: 496px;
+	width: 100%;
+	background: #CC3341 url("../img/iphone7_productred_large.png") no-repeat;
+	background-position: 260px 160px;
+	background-size: contain;
+	
+	
+
+}
+
+.banner .inner{
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    height: 180px;
+}
+
+
+.inner  .special{
+        border: 1px solid #fff;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0em;
+    padding: 2px 8px;
+    margin: 1.4% 35.5%;
+    
+
+
+
+}
+.inner  .da{
+        padding-left: 0.4em;
+            font-size: 28px;
+/*     line-height: 1.64286; */
+    font-weight: 500;
+/*     letter-spacing: .012em; */
+    color: #fff;
+    margin: 0.7% 34%;
+
+
+}
+.inner .xiao{
+/*         line-height: 1.175; */
+    font-weight: 500;
+/*     letter-spacing: .008em; */
+    font-size: 34px;
+    color: #fff;
+    margin: 0.7% 31.3%;
+
+}
+
+.applebox{
+	width: 100%;
+	height: 200px;
+	background: #FAFAFA;
+
+}
+.applebox li{
+	background-position:center;
+	background-size: contain;
+}
+.applebox .first{
+	width: 25%;
+	height: 200px;
+	background:url("../img/wwdc17_large.jpg") no-repeat;
+	float: left;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+
+
+}
+.applebox .second{
+	width: 25%;
+	height: 200px;
+	background: url("../img/macbook_pro_large.jpg") no-repeat;
+	float: left;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+
+}
+.applebox .third{
+	width: 25%;
+	height: 200px;
+	background: url("../img/accessories_large.jpg") no-repeat;
+	float: left;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+
+}
+
+.applebox .four{
+	width: 25%;
+	height: 200px;
+	background: url("../img/supplier_responsibility_large.jpg") no-repeat;
+	float: left;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+
+}
+.applebox li:nth-child(1),li:nth-child(2),li:nth-child(3){
+	border-right: 0px;
+}
+
+
+
+
+
+.footer{
+	width: 100%;
+	height: 421px;
+	background: #F2F2F2;
+	font-size: 11px;
+    line-height: 1.45455;
+    font-weight: 400;
+    letter-spacing: .005em;
+
+    color: #333;
+    overflow: hidden;
+
+}
+.footer-content{
+	margin: 0 auto;
+    padding: 0 22px;
+    background: #F2F2F2;
+
+    width: 980px;
+    height: 401px;
+
+
+}
+.footer-content-top{
+    width: 100%;
+    box-sizing: border-box;
+	border-bottom: 1px solid #d6d6d6;
+    color: #888;
+    padding: 17px 0 11px;
+
+
+
+}
+.footer-content-mid{
+    width: 100%;
+	font-size: 11px;
+    line-height: 1.27273;
+    font-weight: 400;
+    letter-spacing: .005em;
+    padding-top: 20px;
+    height: 200px;
+
+}
+
+#xg{
+    float: left;
+    width: 20%;
+
+
+
+}
+.footer-content-mid dt{
+	display: block;
+	color: #646464;
+    font-size: 12px;
+    font-weight: 700;
+    height: 12px;
+    line-height: 12px;
+    text-align: left;
+
+}
+.footer-content-mid dd{
+	    text-align: left;
+	      display: block;
+}
+.footer-content-mid a{
+	 display: block;	
+    overflow: hidden;
+    text-align: left;
+    height: 10px;
+    line-height: 10px;
+    font-size: 12px;
+    color: #8b8b8b;
+    padding-top: 10px;
+}
+
+#sd{
+    float: left;
+    width: 20%;
+
+}
+#jy{
+    float: left;
+    width: 20%;
+
+}
+#zh{
+    float: left;
+    width: 20%;
+
+}
+#gy{
+    float: left;
+    width: 20%;
+
+
+}
+
+
+.footer-content-bottom{
+	width: 100%;
+	color: #888;
+    padding: 34px 0 21px;
+
+
+}
+
+.footer-content-bottom .bottom-top{
+	border-bottom: 1px solid #d6d6d6;
+	margin-bottom: 7px;
+    padding-bottom: 6px;
+    width: 100%;
+
+
+}
+.nowrap{
+	    white-space: nowrap;
+
+}
+.nowrap a{
+	    color: #0070c9;
+}
+.footer-content-bottom .bottom-mid{
+	 top: -3px;
+	 height: 30px;
+	 width: 100%;
+
+
+   
+}
+.footer-content-bottom .bottom-mid-left{
+	 top: -3px;
+
+    float: left;
+    margin-top: 3px;
+    width: 37%;
+
+
+}
+.footer-content-bottom .bottom-mid-right{
+
+    float: left;
+    width: 49%;
+
+}
+.footer-content-bottom .bottom-mid-right a{
+    color: #555555;
+    margin-right: 0.01%;
+
+    display: inline-block;
+ 
+    white-space: nowrap;
+}
+.footer-content-bottom .zg{
+	float: right;
+    margin-top: 3px;
+    top: -3px;
+    z-index: 2;
+    white-space: nowrap;
+}
+.footer-content-bottom .zgg{
+
+     margin-left: 0.25%;
+
+     display: inline-block;
+
+}
+.footer-content-bottom .bottom-bottom{
+	 font-size: 12px;
+      top: -3px;
+      height: 17px;
+      width: 100%;
+
+
+}
+.footer-content-bottom .bottom-bottom p {
+	 font-size: 12px;
+
+   
+}
+
+
+.footer1{
+	    font-size: 11px;
+    line-height: 1.45455;
+    font-weight: 400;
+    letter-spacing: .005em;
+    display: none;
+    background: #f2f2f2;
+
+}
+.footer1-content{
+
+	    height: 398px;
+	    padding: 0 16px;
+	    margin: 0 auto;
+}
+.footer1-top{
+	box-sizing: border-box;
+    border-bottom: 1px solid #d6d6d6;
+    color: #888;
+    padding: 17px 0 11px;
+
+
+}
+.footer1-top{
+	
+
+	    font-size: 11px;
+    line-height: 1.45455;
+    font-weight: 400;
+    letter-spacing: .005em;
+}
+.footer1-mid{
+
+	height: 193px;
+	font-size: 11px;
+    line-height: 1.27273;
+    font-weight: 400;
+    letter-spacing: .005em;
+    padding-top: 20px;
+}
+.footer1-midson{
+	width: 100%;
+ box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    float: left;
+    	box-sizing: border-box;
+    border-bottom: 1px solid #d6d6d6;
+    overflow: hidden;
+
+
+}
+.title1{
+
+	margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #f2f2f2;
+
+
+}
+.title1:after{
+   content: '+';
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: -2px;
+    margin-right: 8px;
+
+}
+.footer1-bottom{
+	width: 100%;
+	height: 120px;
+	color: #888;
+    padding: 10px 0 10px;
+}
+
+
+.footer1-bottom .zg{
+	margin-top:10px; 
+}
+.footer1-bottom .bottom-mid .bottom-mid-left{
+	margin-top:10px; 
+}
+.footer1-bottom .bottom-mid .bottom-mid-right{
+	margin-top:5px; 
+}
+.footer1-bottom .bottom-bottom{
+	margin-top:5px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1068px){
+      .changtiao{
+      	width: 100%;
+      }
+
+      .navBox{
+     	width: 100%;
+     	height: 44px;
+     	box-sizing: border-box;
+     	padding: 0px 15px;
+     }
+     .navBox ul:nth-child(2){
+		display: none;
+		
+	}
+
+     .banner{
+     	width: 100%;
+     	height: 456px;
+     	background-image: url("../img/iphone7_productred_medium.png");
+     }
+     .applebox{
+     	height: 400px;
+     }
+     .applebox .first{
+     	width: 50%;
+     	background-image: url("../img/wwdc17_medium.jpg");
+     }
+     .applebox .second{
+     	width: 50%;
+     	background-image: url("../img/macbook_pro_medium.jpg");
+     }
+     .applebox .third{
+     	width: 50%;
+     	background-image: url("../img/accessories_medium.jpg");
+     }
+     .applebox .four{
+     	width: 50%;
+     	background-image: url("../img/supplier_responsibility_medium.jpg");
+     }
+     .applebox li:nth-child(3),li:nth-child(4){
+	   border-top: 0px;
+     }
+     .applebox li:nth-child(4){
+        border-right: 0px;
+     }
+
+
+
+    .footer{
+    	width: 100%;
+    }
+    .footer-content{
+    	width: 92%;
+    	/* margin: 0px auto; */
+    }
+     
+
+
+
+
+}
+
+
+@media screen and (max-width: 768px){
+	    .changtiao{
+      	width: 100%;
+      }
+
+       .navBox{
+     	width: 100%;
+     	height: 44px;
+    
+  
+     }
+	.navBox ul:nth-child(2){
+		display: block;
+
+	}
+	.navBox ul:nth-child(1){
+		display: none;
+
+	}
+
+
+
+	.banner{
+		height: 434px;
+		background-image: url("../img/iphone7_productred_small.png");
+			background-size: cover;
+	}
+	.applebox{
+		height: 800px;
+	}
+	.applebox .first{
+		width: 100%;
+        background-image: url("../img/wwdc17_small.jpg");
+	}
+	.applebox .second{
+		width: 100%;
+        background-image: url("../img/macbook_pro_small.jpg");
+	}
+	.applebox .third{
+		width: 100%;
+        background-image: url("../img/accessories_small.jpg");
+	}
+	.applebox .four{
+		width: 100%;
+        background-image: url("../img/supplier_responsibility_small.jpg");
+	}
+	.applebox li:nth-child(2){
+	  border-top: 0px;
+	}
+
+
+     
+    .footer{
+    	
+    	display: none;
+    }
+
+    .footer1{
+    	width: 100%;
+    	display: block;
+    }
+    .footer1-content{
+    	width: 88%;
+    	/* margin: 0px auto; */
+    }
+   
+
+
+   
+}
